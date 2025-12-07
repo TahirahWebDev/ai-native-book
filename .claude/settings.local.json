@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.specify/scripts/bash/create-phr.sh:*)",
+      "Bash(git fetch:*)",
+      "Bash(powershell:*)",
+      "SlashCommand(/sp.specify Chapter: Introduction to Physical AI & Humanoid Robotics\nPlacement: Chapter 1 of the textbook\n\nGoal:\nIntroduce students to the field of Physical AI, embodied intelligence, and the shift from digital-only AI to AI that operates in the physical world. Establish the motivation, context, foundations, and overall roadmap of the course.\n\nTarget audience:\n- Beginners entering Physical AI or robotics for the first time\n- Students familiar with AI/ML but new to robotics systems\n- Learners preparing to work with ROS 2, Gazebo, Unity, and NVIDIA Isaac Sim\n\nSuccess criteria:\n- Clearly explains what Physical AI is and why it matters\n- Defines embodied intelligence and the principles behind AI systems interacting with the real world\n- Presents the motivation for humanoid robots in human-centered environments\n- Provides an overview of sensors, perception, simulation, and robot reasoning concepts\n- Introduces the structure of the textbook and what learners will achieve\n- Easy for the RAG chatbot to index: short sections, clean headings, consistent terminology\n\nRequired content:\n- Definition of Physical AI + embodied intelligence\n- Why the future of AI is physical (transition from digital to embodied)\n- Examples of humanoid robots in industry\n- Overview of robot perception (LiDAR, cameras, IMUs)\n- Explanation of simulation-first development: Digital Twin concept\n- Summary of the 4 major modules and the 13-week course structure\n- Clear learning outcomes for the entire course\n\nConstraints:\n- Writing level: Flesch-Kincaid grade 10–12\n- Length: ~1,000–1,500 words\n- Format: Markdown (Docusaurus)\n- Include at least 3 authoritative citations (APA)\n- Must be written in clean, structured sections for RAG indexing\n- No code examples in this chapter\n\nNot building:\n- Deep technical ROS 2 or Gazebo internals\n- Mathematical details of dynamics/kinematics\n- Hardware setup instructions\n- Capstone project implementation details\n\nTimeline: Generate within 1 writing cycle.)",
+      "Bash(ls:*)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1:*)",
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
